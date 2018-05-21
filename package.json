@@ -1,0 +1,32 @@
+{
+  "name": "sails-hook-jaeger",
+  "version": "0.0.1",
+  "description": "The ORM hook from Sails core.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bauer01/sails-hook-jaeger"
+  },
+  "keywords": [
+    "sails",
+    "jaeger",
+    "tracing",
+    "hook",
+    "sails-hook"
+  ],
+  "author": "Bronislav Sedlák",
+  "license": "MIT",
+  "dependencies": {
+    "@sailshq/lodash": "^3.10.2",
+    "jaeger-client": "^3.10.0",
+    "md5": "^2.2.1",
+    "opentracing": "^0.14.3"
+  },
+  "devDependencies": {
+    "sails": "^1.0.0"
+  },
+  "sails": {
+    "isHook": true,
+    "hookName": "jaeger"
+  }
+}
