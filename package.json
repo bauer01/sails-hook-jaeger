@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-jaeger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The ORM hook from Sails core.",
   "main": "index.js",
   "repository": {
